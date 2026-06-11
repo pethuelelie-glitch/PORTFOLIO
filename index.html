@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elie Pethuel Ehoussou — Portfolio</title>
+  <title> Elie  Ehoussou — Portfolio</title>
   <meta name="description" content="Portfolio professionnel d'Elie Pethuel Ehoussou, développeur et designer basé à Grand-Bassam, Côte d'Ivoire.">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -19,7 +19,9 @@
         <li><a href="#skills">Compétences</a></li>
         <li><a href="#experience">Parcours</a></li>
         <li><a href="#education">Formation</a></li>
+        <li><a href="#projects">Projets</a></li>
         <li><a href="#contact">Contact</a></li>
+        
       </ul>
       <button class="mobile-toggle" aria-label="Menu">
         <span></span><span></span><span></span>
@@ -42,7 +44,7 @@
     <div class="hero-content">
       <div class="hero-text">
         <p class="tag">Développeur &amp; Designer</p>
-        <h1>Elie Pethuel<br><span class="text-gradient">Ehoussou</span></h1>
+        <h1>Essikaffoue Elie Pethuel<br><span class="text-gradient">Ehoussou</span></h1>
         <p class="desc">Étudiant en Génie Logiciel passionné par les technologies émergentes, le développement d'applications et la création de solutions innovantes.</p>
         <div class="hero-buttons">
           <a href="#contact" class="btn-primary">Me Contacter →</a>
@@ -66,7 +68,7 @@
       <h2 class="section-title">Qui suis-je<span class="text-gradient"> ?</span></h2>
       <div class="about-grid">
         <div class="about-text">
-          <p>Étudiant en deuxième année de Génie Logiciel à l'Institut Ivoirien de Technologie de Grand-Bassam, je possède de solides compétences analytiques et une véritable passion pour les technologies émergentes.</p>
+          <p>Étudiant en fin de deuxième année de Génie Logiciel à l'Institut Ivoirien de Technologie de Grand-Bassam, je possède de solides compétences analytiques et une véritable passion pour les technologies émergentes.</p>
           <p>Curieux et autodidacte, j'aime relever les défis techniques et développer des solutions innovantes adaptées aux besoins des utilisateurs. Mon parcours en infographie m'a également doté d'un sens esthétique aiguisé pour le design.</p>
           <div class="tags">
             <span>C</span><span>Python</span><span>MySQL</span><span>Flutter</span><span>Web Dev</span><span>SQL Server</span>
@@ -188,6 +190,116 @@
       </div>
     </div>
   </section>
+
+  <!-- PROJECTS -->
+<section class="projects" id="projects">
+  <p class="section-label">Projets</p>
+  <h2 class="section-title">Mes <span class="text-gradient">réalisations</span></h2>
+  <p class="projects-subtitle">Découvrez les projets que j'ai conçus et développés, alliant technique et créativité.</p>
+
+  <div class="projects-filter">
+    <button class="filter-btn active" data-filter="all">Tous</button>
+    <button class="filter-btn" data-filter="web">Web</button>
+    <button class="filter-btn" data-filter="mobile">Mobile</button>
+    <button class="filter-btn" data-filter="design">Autres</button>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- ✏️ DUPLIQUE ce bloc pour chaque projet -->
+    <div class="project-card" data-category="web">
+      <div class="project-thumbnail">
+        <span class="project-icon">🌐</span>
+        <span class="project-status done">Terminé</span>
+      </div>
+      <div class="project-body">
+        <p class="project-type">Web</p>
+        <h4 class="project-title">AFROGENIE</h4>
+        <p class="project-desc">Conception et développement d'un site web pour une entreprise de services technologiques.</p>
+        <div class="project-techs">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/pethuelelie-glitch/AFROGENIE" target="_blank" class="btn-primary btn-sm">🔗 Voir le projet</a>
+          <a href="https://github.com/pethuelelie-glitch/AFROGENIE" target="_blank" class="btn-outline btn-sm">GitHub</a>
+        </div>
+      </div>
+    </div>
+    <!-- /fin du bloc projet -->
+
+     <div class="project-card" data-category="Mobile">
+      <div class="project-thumbnail">
+        <span class="project-icon">🌐</span>
+        <span class="project-status done">Terminé</span>
+      </div>
+      <div class="project-body">
+        <p class="project-type">Mobile</p>
+        <h4 class="project-title">Foodly</h4>
+        <p class="project-desc">Conception et développement d'une application mobile pour la commande de repas.</p>
+        <div class="project-techs">
+          <span>Flutter</span>
+          <span>Dart</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/pethuelelie-glitch/foodly_app" target="_blank" class="btn-primary btn-sm">🔗 Voir le projet</a>
+          <a href="https://github.com/pethuelelie-glitch/foodly_app" target="_blank" class="btn-outline btn-sm">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card" data-category="web">
+      <div class="project-thumbnail">
+        <span class="project-icon">🌐</span>
+        <span class="project-status done">Terminé</span>
+      </div>
+      <div class="project-body">
+        <p class="project-type">web</p>
+        <h4 class="project-title">Edunote-pro</h4>
+        <p class="project-desc">Application de gestion académique (étudiants, classes, modules, notes, bulletins, classements).  
+          Stack : React, TanStack, Tailwind, Supabase.</p>
+        <div class="project-techs">
+          <span>React</span>
+          <span>TanStack</span>
+          <span>Tailwind</span>
+          <span>Supabase</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/pethuelelie-glitch/EdunotePro" target="_blank" class="btn-primary btn-sm">🔗 Voir le projet</a>
+          <a href="https://github.com/pethuelelie-glitch/EdunotePro" target="_blank" class="btn-outline btn-sm">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="project-card" data-category="web">
+      <div class="project-thumbnail">
+        <span class="project-icon">🌐</span>
+        <span class="project-status done">Terminé</span>
+      </div>
+      <div class="project-body">
+        <p class="project-type">Web</p>
+        <h4 class="project-title">Log-compta-pro</h4>
+        <p class="project-desc">Application web de comptabilité pour petites entreprises (PME), construite avec React 19, TanStack Start, TypeScript, Tailwind CSS v4, shadcn/ui et Supabase.</p>
+        <div class="project-techs">
+          <span>React</span>
+          <span>TanStack</span>
+          <span>TypeScript</span>
+          <span>Tailwind CSS</span>
+          <span>shadcn/ui</span>
+          <span>Supabase</span>
+        </div>
+        <div class="project-links">
+          <a href="#" target="_blank" class="btn-primary btn-sm">🔗 Voir le projet</a>
+          <a href="#" target="_blank" class="btn-outline btn-sm">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+
+</section>
 
   <!-- CONTACT -->
   <section class="contact" id="contact">
