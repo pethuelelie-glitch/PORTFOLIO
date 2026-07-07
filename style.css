@@ -502,6 +502,11 @@ a { text-decoration: none; color: inherit; }
   object-fit: cover;
 }
 
+.project-thumbnail img.project-image--contain {
+  object-fit: contain;
+  padding: 20px;
+}
+
 .project-icon { font-size: 3rem; }
 
 .project-status {
